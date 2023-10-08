@@ -33,14 +33,14 @@
 #define FROM_PROJ_CPP
 #endif
 
-#include "proj/common.hpp"
-#include "proj/coordinates.hpp"
-#include "proj/coordinatesystem.hpp"
-#include "proj/crs.hpp"
-#include "proj/datum.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "common.hpp"
+#include "coordinates.hpp"
+#include "coordinatesystem.hpp"
+#include "crs.hpp"
+#include "datum.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
 #include <cmath>
 #include <string>

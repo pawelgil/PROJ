@@ -28,10 +28,10 @@
 
 #include "gtest_include.h"
 
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
 #include <limits>
 

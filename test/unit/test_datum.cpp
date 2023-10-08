@@ -28,11 +28,11 @@
 
 #include "gtest_include.h"
 
-#include "proj/common.hpp"
-#include "proj/datum.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "common.hpp"
+#include "datum.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
 using namespace osgeo::proj::common;
 using namespace osgeo::proj::datum;

@@ -30,14 +30,14 @@
 
 #include "test_primitives.hpp"
 
-#include "proj/common.hpp"
-#include "proj/coordinateoperation.hpp"
-#include "proj/coordinatesystem.hpp"
-#include "proj/crs.hpp"
-#include "proj/datum.hpp"
-#include "proj/io.hpp"
-#include "proj/metadata.hpp"
-#include "proj/util.hpp"
+#include "common.hpp"
+#include "coordinateoperation.hpp"
+#include "coordinatesystem.hpp"
+#include "crs.hpp"
+#include "datum.hpp"
+#include "io.hpp"
+#include "metadata.hpp"
+#include "util.hpp"
 
 #include <algorithm>
 

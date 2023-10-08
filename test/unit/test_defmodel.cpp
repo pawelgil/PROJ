@@ -30,7 +30,7 @@
 
 // to be able to use internal::toString
 #define FROM_PROJ_CPP
-#include "proj/internal/internal.hpp"
+#include "internal.hpp"
 
 #include "proj.h"
 #include "proj_internal.h"

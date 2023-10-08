@@ -12,10 +12,10 @@
 
 #include <iostream>
 
-#include "proj/coordinateoperation.hpp"
-#include "proj/crs.hpp"
-#include "proj/io.hpp"
-#include "proj/util.hpp" // for nn_dynamic_pointer_cast
+#include "coordinateoperation.hpp"
+#include "crs.hpp"
+#include "io.hpp"
+#include "util.hpp" // for nn_dynamic_pointer_cast
 
 using namespace NS_PROJ::crs;
 using namespace NS_PROJ::io;

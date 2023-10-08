@@ -28,7 +28,7 @@
 
 #include "gtest_include.h"
 
-#include "proj/util.hpp"
+#include "util.hpp"
 
 #include <iostream>
 
