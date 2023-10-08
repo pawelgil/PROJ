@@ -228,6 +228,12 @@ class PROJ_GCC_DLL WKTFormatter {
     PROJ_DLL WKTFormatter &setMultiLine(bool multiLine) noexcept;
     PROJ_DLL WKTFormatter &setIndentationWidth(int width) noexcept;
 
+    #ifdef __OBJC__
+    #define ORIGINAL_YES YES
+    #define ORIGINAL_NO  NO
+    #undef YES
+    #undef NO
+    #endif
     /** Rule for output AXIS nodes */
     enum class OutputAxisRule {
         /** Always include AXIS nodes */
@@ -238,6 +244,12 @@ class PROJ_GCC_DLL WKTFormatter {
          *ordering. Typically used for WKT1_GDAL */
         WKT1_GDAL_EPSG_STYLE,
     };
+    #ifdef __OBJC__
+    #define YES ORIGINAL_YES
+    #define NO  ORIGINAL_NO
+    #undef ORIGINAL_YES
+    #undef ORIGINAL_NO
+    #endif
 
     PROJ_DLL WKTFormatter &setOutputAxis(OutputAxisRule outputAxis) noexcept;
     PROJ_DLL WKTFormatter &setStrict(bool strict) noexcept;
